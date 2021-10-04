@@ -20,6 +20,21 @@ public class TheWorld {
         System.out.println(king2.getDescription());
         System.out.println(army2.getDescription());
 
+        Hero warrior =
+                new Hero.Builder(Profession.WARRIOR, "Duncan Idaho")
+                        .withHairType(HairType.BALD).withWeapon(Weapon.DAGGER).build();
+        System.out.println(warrior);
+
+        Hero  kwisatzHaderach =
+                new Hero.Builder(Profession.KwisatzHaderach, "Paul Atreides").withHairColor(HairColor.BLACK)
+                        .withHairType(HairType.LONG_CURLY).withArmor(Armor.PLATE_MAIL).withWeapon(Weapon.SWORD)
+                        .build();
+        System.out.println(kwisatzHaderach);
+
+        Hero villain =
+                new Hero.Builder(Profession.VILLAIN, "Baron Vladimir Harkonnen").withHairType(HairType.BALD)
+                        .withWeapon(Weapon.MAGIC).build();
+        System.out.println(villain);
 
 
     }
