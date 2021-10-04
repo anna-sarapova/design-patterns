@@ -1,4 +1,6 @@
-package empire_simulation;
+package empire_simulation.abstract_factory;
+
+import empire_simulation.abstract_factory.*;
 
 public class AtreidesKingdomFactory implements KingdomFactory{
     public Castle createCastle() {

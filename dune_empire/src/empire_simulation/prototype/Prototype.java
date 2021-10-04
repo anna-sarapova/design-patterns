@@ -1,4 +1,4 @@
-package empire_simulation;
+package empire_simulation.prototype;
 
 public abstract class Prototype implements Cloneable {
 

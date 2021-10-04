@@ -1,6 +1,6 @@
-package empire_simulation;
+package empire_simulation.prototype;
 
-public class ArrakisBeast extends Beast{
+public class ArrakisBeast extends Beast {
     public ArrakisBeast() {}
 
     @Override

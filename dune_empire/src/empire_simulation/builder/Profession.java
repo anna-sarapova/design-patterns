@@ -1,4 +1,4 @@
-package empire_simulation;
+package empire_simulation.builder;
 
 public enum Profession {
     KwisatzHaderach, WARRIOR, VILLAIN, MAGE, PRIEST;

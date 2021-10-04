@@ -1,4 +1,4 @@
-package empire_simulation;
+package empire_simulation.abstract_factory;
 
 public class AtreidesKing implements King {
     static final String DESCRIPTION = "This is the Atreides king!";

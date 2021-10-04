@@ -1,6 +1,6 @@
-package empire_simulation;
+package empire_simulation.prototype;
 
-public class Fremen extends Warlord{
+public class Fremen extends Warlord {
     public Fremen() {}
 
     @Override

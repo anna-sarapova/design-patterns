@@ -1,6 +1,8 @@
-package empire_simulation;
+package empire_simulation.abstract_factory;
 
-public class HarkonnenKingdomFactory implements KingdomFactory{
+import empire_simulation.abstract_factory.*;
+
+public class HarkonnenKingdomFactory implements KingdomFactory {
     public Castle createCastle() {
         return new HarkonnenCastle();
     }
