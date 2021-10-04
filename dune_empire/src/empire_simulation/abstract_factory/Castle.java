@@ -1,4 +1,4 @@
-package empire_simulation;
+package empire_simulation.abstract_factory;
 
 public interface Castle {
     String getDescription();

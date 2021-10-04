@@ -1,6 +1,8 @@
-package empire_simulation;
+package empire_simulation.abstract_factory;
 
-public class HarkonnenArmy implements Army{
+import empire_simulation.abstract_factory.Army;
+
+public class HarkonnenArmy implements Army {
     static final String DESCRIPTION = "This is the Harkonnen Army!";
     @Override
     public String getDescription() {

@@ -1,4 +1,4 @@
-package empire_simulation;
+package empire_simulation.builder;
 
 public enum Armor {
     CLOTHES("clothes"), LEATHER("leather"), CHAIN_MAIL("chain mail"), PLATE_MAIL("plate mail");

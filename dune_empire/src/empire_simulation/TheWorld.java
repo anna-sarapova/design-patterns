@@ -1,5 +1,10 @@
 package empire_simulation;
 
+import empire_simulation.abstract_factory.AtreidesKingdomFactory;
+import empire_simulation.abstract_factory.HarkonnenKingdomFactory;
+import empire_simulation.builder.*;
+import empire_simulation.prototype.*;
+
 public class TheWorld {
     public static void main(String[] args){
         var factory = new AtreidesKingdomFactory();

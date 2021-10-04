@@ -1,4 +1,6 @@
-package empire_simulation;
+package empire_simulation.abstract_factory;
+
+import empire_simulation.abstract_factory.Castle;
 
 public class HarkonnenCastle implements Castle {
     static final String DESCRIPTION = "This is the Harkonnen' castle!";

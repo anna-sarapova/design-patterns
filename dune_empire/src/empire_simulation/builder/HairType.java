@@ -1,4 +1,4 @@
-package empire_simulation;
+package empire_simulation.builder;
 
 public enum HairType {
     BALD("bald"), SHORT("short"), CURLY("curly"), LONG_STRAIGHT("long straight"), LONG_CURLY(
