@@ -37,5 +37,18 @@ public class TheWorld {
         System.out.println(villain);
 
 
+        HeroFactory secondaryCharacters;
+        Mage mage;
+        Warlord warlord;
+        Beast beast;
+
+        secondaryCharacters = new HeroFactoryImplement(new BeneGesseritWitch(),new Fremen(), new ArrakisBeast());
+        mage = secondaryCharacters.createMage();
+        warlord = secondaryCharacters.createWarlord();
+        beast = secondaryCharacters.createBeast();
+        System.out.println(mage);
+        System.out.println(warlord);
+        System.out.println(beast);
+
     }
 }
