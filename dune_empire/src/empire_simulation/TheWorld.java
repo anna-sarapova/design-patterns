@@ -25,6 +25,8 @@ public class TheWorld {
         System.out.println(king2.getDescription());
         System.out.println(army2.getDescription());
 
+        System.out.println("__________________________________________________________");
+
         Hero warrior =
                 new Hero.Builder(Profession.WARRIOR, "Duncan Idaho")
                         .withHairType(HairType.BALD).withWeapon(Weapon.DAGGER).build();
@@ -41,6 +43,7 @@ public class TheWorld {
                         .withWeapon(Weapon.MAGIC).build();
         System.out.println(villain);
 
+        System.out.println("__________________________________________________________");
 
         HeroFactory secondaryCharacters;
         Mage mage;
