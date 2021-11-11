@@ -2,6 +2,8 @@ package empire_simulation;
 
 import empire_simulation.abstract_factory.AtreidesKingdomFactory;
 import empire_simulation.abstract_factory.HarkonnenKingdomFactory;
+import empire_simulation.adapter.BattleTransportShip;
+import empire_simulation.adapter.Captain;
 import empire_simulation.builder.*;
 import empire_simulation.builder.enums.*;
 import empire_simulation.prototype.*;
@@ -61,6 +63,14 @@ public class TheWorld {
         System.out.println(mage);
         System.out.println(warlord);
         System.out.println(beast);
+
+        System.out.println("__________________________________________________________");
+
+        Captain captain = new Captain((new BattleTransportShip()));
+        captain.transport();
+        captain.attack();
+
+        System.out.println("__________________________________________________________");
 
     }
 }
