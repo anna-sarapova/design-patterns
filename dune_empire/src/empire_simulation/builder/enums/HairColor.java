@@ -1,4 +1,4 @@
-package empire_simulation.builder;
+package empire_simulation.builder.enums;
 
 public enum HairColor {
     WHITE, BLOND, RED, BROWN, BLACK;

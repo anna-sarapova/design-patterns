@@ -1,5 +1,7 @@
 package empire_simulation.prototype;
 
+import empire_simulation.prototype.abstractions.Beast;
+
 public class ArrakisBeast extends Beast {
     public ArrakisBeast() {}
 

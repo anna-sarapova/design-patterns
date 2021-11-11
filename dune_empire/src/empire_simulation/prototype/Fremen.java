@@ -1,5 +1,7 @@
 package empire_simulation.prototype;
 
+import empire_simulation.prototype.abstractions.Warlord;
+
 public class Fremen extends Warlord {
     public Fremen() {}
 
