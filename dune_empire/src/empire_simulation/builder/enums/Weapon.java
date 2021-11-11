@@ -1,4 +1,4 @@
-package empire_simulation.builder;
+package empire_simulation.builder.enums;
 
 public enum Weapon {
     DAGGER, SWORD, AXE, WARHAMMER, BOW, MAGIC;

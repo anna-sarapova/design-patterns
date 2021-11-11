@@ -1,5 +1,7 @@
 package empire_simulation.builder;
 
+import empire_simulation.builder.enums.*;
+
 public final class Hero {
 
     private final Profession profession;

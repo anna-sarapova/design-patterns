@@ -1,5 +1,7 @@
 package empire_simulation.prototype;
 
+import empire_simulation.prototype.abstractions.Mage;
+
 public class BeneGesseritWitch extends Mage {
     public BeneGesseritWitch() {}
 
