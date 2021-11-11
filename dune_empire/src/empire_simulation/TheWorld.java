@@ -10,6 +10,8 @@ import empire_simulation.prototype.*;
 import empire_simulation.prototype.abstractions.Beast;
 import empire_simulation.prototype.abstractions.Mage;
 import empire_simulation.prototype.abstractions.Warlord;
+import empire_simulation.proxy.FlyingShipProxy;
+import empire_simulation.proxy.People;
 
 public class TheWorld {
     public static void main(String[] args){
@@ -69,6 +71,19 @@ public class TheWorld {
         Captain captain = new Captain((new BattleTransportShip()));
         captain.transport();
         captain.attack();
+
+        System.out.println("__________________________________________________________");
+
+        FlyingShipProxy ship = new FlyingShipProxy();
+        ship.onBoard(new People("Group A"));
+        ship.onBoard(new People("Group B"));
+        ship.onBoard(new People("Group C"));
+        ship.onBoard(new People("Group D"));
+        ship.onBoard(new People("Group E"));
+        ship.onBoard(new People("Group F"));
+        ship.onBoard(new People("Group G"));
+        ship.onBoard(new People("Group H"));
+        ship.onBoard(new People("Group I"));
 
         System.out.println("__________________________________________________________");
 
