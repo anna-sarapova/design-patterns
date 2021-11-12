@@ -1,5 +1,7 @@
 package empire_simulation.composite;
 
+import empire_simulation.composite.abstractions.LetterComposite;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

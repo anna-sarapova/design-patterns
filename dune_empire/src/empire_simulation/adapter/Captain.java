@@ -1,8 +1,10 @@
 package empire_simulation.adapter;
 
+import empire_simulation.adapter.interfaces.DragonFly;
+
 /** The Captain class is the client in the pattern **/
 
-public class Captain implements DragonFly{
+public class Captain implements DragonFly {
 
     private DragonFly dragonFly;
 

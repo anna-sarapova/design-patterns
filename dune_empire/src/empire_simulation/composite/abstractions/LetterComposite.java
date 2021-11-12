@@ -1,4 +1,4 @@
-package empire_simulation.composite;
+package empire_simulation.composite.abstractions;
 
 import java.util.ArrayList;
 import java.util.List;

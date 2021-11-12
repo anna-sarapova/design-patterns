@@ -8,7 +8,7 @@ import empire_simulation.builder.*;
 import empire_simulation.builder.enums.*;
 import empire_simulation.composite.AtreidesMessenger;
 import empire_simulation.composite.HarkonnenMessenger;
-import empire_simulation.composite.LetterComposite;
+import empire_simulation.composite.abstractions.LetterComposite;
 import empire_simulation.prototype.*;
 import empire_simulation.prototype.abstractions.Beast;
 import empire_simulation.prototype.abstractions.Mage;

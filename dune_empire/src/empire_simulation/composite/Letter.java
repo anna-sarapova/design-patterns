@@ -1,6 +1,8 @@
 package empire_simulation.composite;
 
-public class Letter extends LetterComposite{
+import empire_simulation.composite.abstractions.LetterComposite;
+
+public class Letter extends LetterComposite {
 
     private char c;
 
