@@ -6,6 +6,9 @@ import empire_simulation.adapter.BattleTransportShip;
 import empire_simulation.adapter.Captain;
 import empire_simulation.builder.*;
 import empire_simulation.builder.enums.*;
+import empire_simulation.composite.AtreidesMessenger;
+import empire_simulation.composite.HarkonnenMessenger;
+import empire_simulation.composite.LetterComposite;
 import empire_simulation.prototype.*;
 import empire_simulation.prototype.abstractions.Beast;
 import empire_simulation.prototype.abstractions.Mage;
@@ -86,6 +89,17 @@ public class TheWorld {
         ship.onBoard(new People("Group I"));
 
         System.out.println("__________________________________________________________");
+
+        System.out.println(" The Harkonnens say: ");
+
+        LetterComposite harkonnenMessage = new HarkonnenMessenger().messageFromHarkonnens();
+        harkonnenMessage.print();
+
+        System.out.println("\n");
+
+        System.out.println(" The Atreides say: ");
+        LetterComposite atreidesMessage = new AtreidesMessenger().messageFromAtreides();
+        atreidesMessage.print();
 
     }
 }
