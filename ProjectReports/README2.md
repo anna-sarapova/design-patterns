@@ -105,4 +105,4 @@ In this case `letters` compose `words`, and `words` compose `sentences`.
 Structural design patterns are great in explaining how to assemble objects and classes into larger structures
 while keeping these structures flexible and efficient. The advantage of this type of patterns is the design 
 by identifying a simple way to realize relationships between entities. The Output of the project can be seen below.
-![img.png](../img_5.png)
+![img.png](../images/img_5.png)
