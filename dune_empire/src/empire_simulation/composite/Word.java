@@ -1,5 +1,7 @@
 package empire_simulation.composite;
 
+import empire_simulation.composite.abstractions.LetterComposite;
+
 import java.util.List;
 
 public class Word extends LetterComposite {

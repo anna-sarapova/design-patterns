@@ -1,6 +1,8 @@
 package empire_simulation.adapter;
 
-public class BattleTransportShip  implements DragonFly{
+import empire_simulation.adapter.interfaces.DragonFly;
+
+public class BattleTransportShip  implements DragonFly {
 
     private TransportShip ship;
 

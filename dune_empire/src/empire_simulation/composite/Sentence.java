@@ -1,8 +1,10 @@
 package empire_simulation.composite;
 
+import empire_simulation.composite.abstractions.LetterComposite;
+
 import java.util.List;
 
-public class Sentence extends LetterComposite{
+public class Sentence extends LetterComposite {
 
     public Sentence(List<Word> words){
         for(Word w : words){
