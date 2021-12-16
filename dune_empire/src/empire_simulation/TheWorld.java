@@ -9,6 +9,9 @@ import empire_simulation.builder.enums.*;
 import empire_simulation.composite.AtreidesMessenger;
 import empire_simulation.composite.HarkonnenMessenger;
 import empire_simulation.composite.abstractions.LetterComposite;
+import empire_simulation.observer.Atreides;
+import empire_simulation.observer.Battles;
+import empire_simulation.observer.Harkonnens;
 import empire_simulation.prototype.*;
 import empire_simulation.prototype.abstractions.Beast;
 import empire_simulation.prototype.abstractions.Mage;
@@ -101,5 +104,16 @@ public class TheWorld {
         LetterComposite atreidesMessage = new AtreidesMessenger().messageFromAtreides();
         atreidesMessage.print();
 
+        System.out.println("__________________________________________________________");
+
+        Battles battles = new Battles();
+        battles.addObserver(new Atreides());
+        battles.addObserver(new Harkonnens());
+
+        battles.timePasses();
+        battles.timePasses();
+        battles.timePasses();
+        battles.timePasses();
+        battles.timePasses();
     }
 }
